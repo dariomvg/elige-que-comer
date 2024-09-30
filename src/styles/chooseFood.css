@@ -1,0 +1,81 @@
+
+.section-choose-food {
+    width: 100%; 
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-title-food {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.box-title-food p {
+    color: #eee;
+    padding: 10px;
+}
+
+.title-food {
+    color: #fff;
+    text-align: center;
+}
+
+.title-message {
+    color: #fa4f4f;
+    padding-bottom: 20px; 
+    text-align: center;
+}
+
+.btns {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 12px;
+}
+
+.btn  {
+    padding: 10px;
+    border: 1px solid #aaa;
+    background-color: transparent;
+    font-weight: 500;
+    color: #eee;
+    transition: .5s;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    border-color:#ddd;
+    background-color: #ddd;
+    color: #000;
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

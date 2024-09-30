@@ -1,0 +1,149 @@
+.section-foods {
+  width: 100%;
+  padding-top: 20px;
+  overflow-y: auto;
+}
+
+.section-foods h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.form-foods {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.box-select {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title-select {
+    font-size: 16px;
+    color: #fff;
+}
+
+.select {
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+option {
+    color: #000;
+    font-weight: 500;
+}
+
+.box-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-search {
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  background-color: transparent;
+  outline: none;
+}
+
+.input-search::placeholder {
+  color: #eee;
+}
+
+.input-search:focus {
+  border-color: #007bff;
+}
+
+.btn-search {
+  padding: 10px;
+  border: 1px solid #007bff;
+  background: #007bff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.cards-food {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  padding: 12px 5px 5px 5px;
+}
+
+.card-food {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.title-card-food {
+  color: #fff;
+}
+
+.receta-card-food {
+  color: #aaa;
+}
+
+.btn-card-food {
+  background-color: transparent;
+  text-align: start;
+  color: #aaa;
+  text-decoration: none;
+  transition: 0.5s;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-card-food:hover {
+  color: #fff;
+  border-color: #fff;
+  transition: 0.5s;
+}
+
+.section-pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px 20px 10px;
+}
+
+.page {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .title-select {
+    display: none;
+  }
+}
